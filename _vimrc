@@ -39,7 +39,7 @@ set scrolloff=3
 set showcmd
 " 设置在状态行显示的信息
 set laststatus=2
-set statusline=\ %<%F[%1*%M%*%n%R%H]%=\ %y\ %0(%{&fileformat}\ %{&encoding}\ %l/%L\,%c%V\ %P%)\
+set statusline=%<%F[%1*%M%*%n%R%H]%=\ %y\ %0(%{&fileformat}\ %{&encoding}\ %l/%L\,%c%V\ %P%)
 
 " 启用自动缩进，和上一行的缩进保持一致『ai』
 set autoindent
